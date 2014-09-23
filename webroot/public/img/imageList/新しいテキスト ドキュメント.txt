@@ -1,0 +1,11 @@
+[19:34:42] TJMM: MAIN
+メニューボタン『HOME』『STORY』『CHARACTER』『GALLERY』『DOWNLOAD』
+STORYボタン
+STORY
+CHARACTERボタン
+CHARACTER
+GALLERYボタン
+GALLERY
+DOWNLOADボタン
+
+http://www.alpha-model.jp/enkou.html

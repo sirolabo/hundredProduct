@@ -1,0 +1,39 @@
+extends _core
+block head
+  +makeHead("Home")
+block header
+  #header2(data-webele="header")
+    a(href="#" data-webele="MenuButton")
+      ="HOME"
+    a(href="#story" data-webele="MenuButton")
+      ="STORY"
+    a(href="#char" data-webele="MenuButton")
+      ="CHARACTER"
+    a(href="#gallery" data-webele="MenuButton")
+      ="GALLERY"
+    a(href="#dl" data-webele="MenuButton")
+      ="DOWNLOAD"
+block main
+  .frontBG(data-webele="frontBG")
+    img(src=path.img + "imageList/main.jpg" data-webele="mainImage_head")
+    section(data-webele="info")
+      h1(data-webele="h1")
+        ="更新情報"
+      .text(data-webele="date")
+        ="YYYY/MM/DD"
+      .text(data-webele="infoText")
+        ="更新情報ああああああああああああああああああああああああああああああああああああああああああ"
+      .text(data-webele="date")
+        ="YYYY/MM/DD"
+      .text(data-webele="infoText")
+        ="更新情報ああああああああああああああああああああああああああああああああああああああああああ"
+    img#story(src=path.img + "imageList/h_story.jpg" data-webele="headImage")
+    img(src=path.img + "imageList/story.jpg" data-webele="mainImage")
+    img#char(src=path.img + "imageList/h_char.jpg" data-webele="headImage")
+    img(src=path.img + "imageList/char_A.jpg" data-webele="mainImage")
+    img(src=path.img + "imageList/char_B.jpg" data-webele="mainImage")
+    img(src=path.img + "imageList/h_gallery.jpg" data-webele="headImage")
+    img#gallery(src=path.img + "imageList/gallery.jpg" data-webele="mainImage")
+    img(src=path.img + "imageList/h_dl.jpg" data-webele="headImage")
+    img#dl(src=path.img + "imageList/dl.jpg" data-webele="mainImage")
+ 
